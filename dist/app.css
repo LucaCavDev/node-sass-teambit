@@ -2,10 +2,25 @@
   font-family: "Poppins", sans-serif;
 }
 
+#section1 {
+  background-color: #ffff;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid black;
+  padding-bottom: 20px;
+  margin-bottom: 100px;
+}
+
+.header a {
+  color: #040f0f;
+}
+
+.header li {
+  margin-right: 50px;
+  color: #040f0f;
 }
 
 .headerR-ul {
@@ -15,6 +30,11 @@
 
 .jumbotron {
   display: flex;
+  color: #040f0f;
+}
+
+.jumbotron a {
+  color: #040f0f;
 }
 
 .jumboLeft,
@@ -28,20 +48,38 @@
 }
 
 #section2 {
-  background-color: #ffe7d2;
+  background-color: #4466d4;
+  padding-top: 50px;
 }
 
 #section2 * {
   text-align: center;
+  color: #040f0f;
 }
 
 .s2top {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #040f0f;
+}
+
+.s2bottom {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.s2HalfContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.s2HalfContainer .s2-title h2 {
+  padding-bottom: 50px;
 }
 
 .s2-3images-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   width: 860px;
   height: 230px;
 }
@@ -49,6 +87,10 @@
 .s2-3images-container .s2-little-img-text-container {
   width: 30%;
   height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .s2-3images-container .s2-little-img-text-container .s2-little-img-container {
@@ -57,33 +99,39 @@
 }
 
 .s2-3images-container .s2-little-img-text-container .s2-little-img-container img {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: auto;
+  max-height: 100px;
 }
 
 .s2-bigImg {
   max-width: 280px;
   max-height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .s2-bigImg img {
   max-width: 100%;
-  max-height: 100%;
+  height: auto;
 }
 
-.s3row {
-  max-width: 100%;
-}
-
-.s3row .s3bigImage {
+.s3row .s3image {
   width: 768px;
 }
 
 .s3row .s3content {
+  max-width: 50%;
+}
+
+.s3row .s3content .s3text {
   width: 420px;
 }
 
-.s3row .s3bigImage img {
+.s3row .s3image .s3frame {
+  max-width: 50%;
+}
+
+.s3row .s3image .s3frame img {
   max-width: 100%;
 }
 
@@ -119,5 +167,9 @@ li {
   margin-right: auto;
   padding: 0 25px;
   line-height: 1.5;
+}
+
+button {
+  color: #040f0f;
 }
 

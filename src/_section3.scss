@@ -1,17 +1,21 @@
 .s3row {
-  max-width: 100%;
+  // max-width: 100%;
 
-  .s3bigImage {
-    width: 768px;
+  .s3image {
+    // width: 768px;
+    width: 50%;
+    .s3frame{
+      max-width: 50%;
+      img {
+        max-width: 100%;
+      }
+
   }
 
   .s3content {
-    width: 420px;
-  }
-
-  .s3bigImage {
-    img {
-      max-width: 100%;
+    max-width: 50%;
+    .s3text {
+      width: 420px;
     }
   }
 
