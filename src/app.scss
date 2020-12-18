@@ -1,0 +1,39 @@
+@import "_colors";
+@import "_font";
+@import "_section1";
+@import "_section2";
+@import "_section3";
+@import "_section4";
+@import "_section5";
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+// id del container
+#app {
+  max-width: 100vw;
+  height: 100vh;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+// common
+.container-1-2-5 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  max-width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 25px;
+  line-height: 1.5;
+}

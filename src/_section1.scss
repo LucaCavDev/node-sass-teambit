@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+
+}
+
+.headerR-ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.jumbotron {
+  display: flex;
+}
+
+.jumboLeft, .jumboRight {
+  width: 50%;
+}
+
+.jumboRight {
+  img {
+    max-width: 100%;
+    max-height: auto;
+  }
+}

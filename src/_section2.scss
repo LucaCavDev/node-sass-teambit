@@ -1,0 +1,46 @@
+#section2 {
+  background-color: $section-colored;
+  * {
+    text-align: center;
+  }
+
+}
+
+.s2top {
+  border-bottom: 1px solid black;
+}
+
+.s2-3images-container {
+  display: flex;
+  justify-content: center;
+  width: 860px;
+  height: 230px;
+
+  .s2-little-img-text-container {
+    width: 30%;
+    height: auto;
+
+    .s2-little-img-container {
+      max-width: 140px;
+      max-height: auto;
+
+      img {
+        max-width: 100%;
+        max-height: 100%;
+      }
+
+    }
+
+  }
+}
+
+.s2-bigImg {
+  max-width: 280px;
+  max-height: auto;
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+}
