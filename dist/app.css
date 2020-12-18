@@ -75,9 +75,12 @@
   max-width: 100%;
 }
 
-.s3row .s3bigImage,
+.s3row .s3bigImage {
+  width: 768px;
+}
+
 .s3row .s3content {
-  max-width: 50%;
+  width: 420px;
 }
 
 .s3row .s3bigImage img {

@@ -1,7 +1,12 @@
 .s3row {
   max-width: 100%;
-  .s3bigImage, .s3content {
-    max-width: 50%;
+
+  .s3bigImage {
+    width: 768px;
+  }
+
+  .s3content {
+    width: 420px;
   }
 
   .s3bigImage {
