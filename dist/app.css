@@ -1,5 +1,11 @@
 * {
   font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+}
+
+#section5 ul li {
+  font-size: 12px;
+  padding-bottom: 5px;
 }
 
 #section1 {
@@ -115,29 +121,151 @@
   height: auto;
 }
 
-.s3row .s3image {
+#section3 {
+  width: 100vw;
+}
+
+.s3row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.s3row a {
+  color: #4466d4;
+}
+
+.s3image {
+  width: 50%;
+  padding: 20px;
+}
+
+.s3image img {
   width: 768px;
 }
 
-.s3row .s3content {
-  max-width: 50%;
+.s3content {
+  padding: 20px;
+  width: 50%;
 }
 
-.s3row .s3content .s3text {
+.s3content .s3content-wrapper {
   width: 420px;
 }
 
-.s3row .s3image .s3frame {
-  max-width: 50%;
+.s3content * {
+  padding-bottom: 20px;
 }
 
-.s3row .s3image .s3frame img {
-  max-width: 100%;
+.s3content img {
+  width: 270px;
 }
 
-.s3row > div {
+.floatRight {
+  float: right;
+}
+
+.floatLeft {
+  float: left;
+}
+
+.textalignright {
+  text-align: right;
+}
+
+.s3contentRight {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#section4 {
+  background-color: #4466d4;
+  padding-top: 100px;
+}
+
+.s4flexCenter {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.s4title {
+  margin-bottom: 50px;
+}
+
+.s4letter {
+  padding: 30px;
+  width: 60%;
+  background-color: #ffff;
+  border: 1px solid #0e14ee;
+  border-radius: 5px;
+}
+
+.s4letter p {
+  padding-bottom: 20px;
+}
+
+.s4letter .s4letterFooter {
+  display: flex;
+}
+
+.s4letter .s4letterFooter img {
+  width: auto;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.s4letter .s4letterFooter .s4names {
+  color: #0e14ee;
+}
+
+.s4buttons {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.s4buttons .s4or {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.s4footer {
+  padding-bottom: 100px;
+}
+
+#section5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+#section5 footer {
+  width: 1150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#section5 footer .fL {
+  width: 32%;
+}
+
+#section5 footer .fSpace {
+  width: 4%;
+}
+
+#section5 footer .fR {
+  width: 64%;
+  display: flex;
+}
+
+#section5 footer .fColumn {
+  width: 20%;
+  padding-right: 10px;
 }
 
 * {
@@ -159,14 +287,13 @@ li {
   list-style: none;
 }
 
-.container-1-2-5 {
+.container-1-2-4-5 {
   margin-top: 100px;
   margin-bottom: 100px;
   max-width: 1150px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 25px;
-  line-height: 1.5;
 }
 
 button {

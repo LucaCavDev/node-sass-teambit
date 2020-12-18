@@ -1,0 +1,27 @@
+#section5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+  footer {
+    width: 1150px;
+    display: flex;
+    justify-content: space-between;
+
+    .fL {
+      width: 32%;
+    }
+    .fSpace {
+      width: 4%;
+    }
+    .fR {
+      width: 64%;
+      display: flex;
+    }
+
+    .fColumn {
+      width: 20%;
+      padding-right: 10px;
+    }
+  }
+}

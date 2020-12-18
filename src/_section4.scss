@@ -1,0 +1,51 @@
+#section4 {
+  background-color: $azzurroCielo;
+  padding-top: 100px;
+
+}
+
+.s4flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.s4title {
+  margin-bottom: 50px;
+}
+
+.s4letter {
+  padding: 30px;
+  width: 60%;
+  background-color: $biancoPerla;
+  border: 1px solid $bluAcceso;
+  border-radius: 5px;
+  p {
+    padding-bottom: 20px;
+  }
+  .s4letterFooter{
+    display: flex;
+    img {
+      width: auto;
+      height: 40px;
+      margin-right: 20px;
+    }
+    .s4names {
+      color: $bluAcceso;
+    }
+  }
+}
+
+.s4buttons {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .s4or {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+.s4footer {
+  padding-bottom: 100px;
+}

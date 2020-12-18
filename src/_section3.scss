@@ -1,27 +1,77 @@
-.s3row {
-  // max-width: 100%;
-
-  .s3image {
-    // width: 768px;
-    width: 50%;
-    .s3frame{
-      max-width: 50%;
-      img {
-        max-width: 100%;
-      }
-
-  }
-
-  .s3content {
-    max-width: 50%;
-    .s3text {
-      width: 420px;
-    }
-  }
-
-  > div {
-    display: flex;
-    justify-content: center;
-  }
-
+#section3 {
+  width: 100vw;
 }
+.s3row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+  a {
+    color: $azzurroCielo;
+  }
+}
+
+.s3image {
+  width: 50%;
+  padding: 20px;
+  img {
+    width: 768px;
+  }
+}
+
+.s3content {
+  padding: 20px;
+
+  width: 50%;
+  .s3content-wrapper {
+    width: 420px;
+  }
+
+  * {
+    padding-bottom: 20px;
+  }
+
+  img {
+    width: 270px;
+  }
+}
+
+.floatRight {
+  float: right;
+}
+
+.floatLeft {
+  float: left;
+}
+
+.textalignright {
+  text-align: right;
+}
+
+.s3contentRight {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+
+
+  //
+  // .s3image {
+  //   // width: 768px;
+  //   width: 50%;
+  //   .s3frame{
+  //     max-width: 50%;
+  //     img {
+  //       max-width: 100%;
+  //     }
+  //
+  // }
+  //
+  // .s3content {
+  //   max-width: 50%;
+  //   .s3text {
+  //     width: 420px;
+  //   }
+  // }
+  //
