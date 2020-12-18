@@ -71,6 +71,24 @@
   max-height: 100%;
 }
 
+.s3row {
+  max-width: 100%;
+}
+
+.s3row .s3bigImage,
+.s3row .s3content {
+  max-width: 50%;
+}
+
+.s3row .s3bigImage img {
+  max-width: 100%;
+}
+
+.s3row > div {
+  display: flex;
+  justify-content: center;
+}
+
 * {
   margin: 0;
   padding: 0;
