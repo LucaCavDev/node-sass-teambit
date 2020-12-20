@@ -7,23 +7,24 @@ $link-color-hover: #263972;
 
 // new _colors
 
-// 7f14d4
-// 0e14ee
-// 4466d4
-// 040f0f
 $biancoPerla: #ffff;
-
 $violaAcceso: #7f14d4;
-//viola acceso
-
-
 $bluAcceso: #0e14ee;
-// blu acceso
-
-
 $azzurroCielo: #4466d4;
-// azzurro cielo
-
-
 $neroCliente: #040f0f;
-//nero
+
+#section1 {
+  background-color: $biancoPerla;
+}
+#section2 {
+  background-color: $azzurroCielo;
+}
+#section3 {
+  background-color: $biancoPerla;
+}
+#section4 {
+  background-color: $azzurroCielo;
+}
+#section5 {
+  background-color: $biancoPerla;
+}

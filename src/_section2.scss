@@ -1,5 +1,4 @@
 #section2 {
-  background-color: $azzurroCielo;
   padding-top: 50px;
 
   * {
@@ -39,7 +38,7 @@
   height: 230px;
 
   .s2-little-img-text-container {
-    width: 30%;
+    width: 33%;
     height: auto;
     display: flex;
     justify-content: center;
@@ -53,6 +52,7 @@
       img {
         max-width: auto;
         max-height: 100px;
+        margin-bottom: 30px;
       }
 
     }

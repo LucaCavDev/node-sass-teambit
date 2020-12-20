@@ -1,10 +1,10 @@
 #section1 {
-  background-color: $biancoPerla;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   border-bottom: 1px solid black;
   padding-bottom: 20px;
   margin-bottom: 100px;
@@ -13,8 +13,13 @@
   }
 
   li {
-    margin-right: 50px;
+    margin-left: 40px;
     color: $neroCliente;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
   }
 
 }
@@ -36,6 +41,15 @@
 .jumboLeft, .jumboRight {
   width: 50%;
 }
+
+.jumboLeft > div {
+  padding-bottom: 40px;
+}
+
+.jL-buttons {
+  padding-bottom: 20px;
+}
+
 
 .jumboRight {
   img {
